@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  // baseURL: 'http://localhost:8080/api',
-    baseURL: 'https://eventmate-infosysspringboard.onrender.com/api',
+  baseURL: 'http://localhost:8080/api',
+  //  baseURL: 'https://eventmate-infosysspringboard.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
